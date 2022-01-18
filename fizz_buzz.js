@@ -18,7 +18,7 @@ for (let i=1; i<=100; i++) {
     //var s = isDivisibleBy(i,5) && isDivisibleBy(i,3) ? 'FizzBuzz' : isDivisibleBy(i,3) ? "Fizz": isDivisibleBy(i,5) ? "Buzz" : i.toString();
     //console.log(s);
 
-    //4rt version
+    //4th version
     let result='';
     if (isDivisibleBy(i,3)) result+="Fizz";
     if (isDivisibleBy(i,5)) result+="Buzz";
