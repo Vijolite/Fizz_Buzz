@@ -24,5 +24,6 @@ for (let i=1; i<=100; i++) {
     if (isDivisibleBy(i,5)) result+="Buzz";
     if (result==='') result=i.toString();
     console.log(result);
-
+    
+    //comment
 }
